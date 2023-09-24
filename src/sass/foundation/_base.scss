@@ -1,0 +1,38 @@
+/*-----------------------------
+bace
+-----------------------------*/
+html {
+    scroll-behavior: smooth;
+}
+
+header,
+main,
+footer {
+    font-weight: 400;
+    font-size: 1.5rem;
+}
+
+main {
+    overflow: hidden;
+}
+
+p {
+    line-height: 2.2;
+}
+
+a {
+    transition: 0.2s;
+
+    &:hover {
+        opacity: 0.7;
+    }
+}
+
+body {
+    margin-top: 30px;
+}
+
+.header {
+    height: 80px;
+    margin-top: 50px;
+}
